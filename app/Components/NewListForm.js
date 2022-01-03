@@ -4,6 +4,7 @@ export function newListForm() {
     <div class="form-group">
       <input type="text" name="listName" class="form-control" placeholder="Name your list.." minlength="3"
         maxlength="15" />
+      <input type="color" id="color" name="color" value="#006D75">
     </div>
     <div class="modal-footer">
       <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
